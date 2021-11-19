@@ -17,6 +17,10 @@
     
             
                 
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -295,7 +299,7 @@
 </li>
 </ul>
 <ul>
-<li><p>&#x5B50;&#x96C6;&#x6811;&#xFF1A;O(2^n^)</p>
+<li><p>&#x5B50;&#x96C6;&#x6811;&#xFF1A;O(<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>2</mn><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">2^n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.664392em;"></span><span class="strut bottom" style="height:0.664392em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathrm">2</span><span class="msupsub"><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped mtight"><span class="mord mathit mtight">n</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span></span></span></span></span>)</p>
 </li>
 <li><p>&#x6392;&#x5217;&#x6570;&#xFF1A;O(n!)</p>
 </li>
@@ -304,7 +308,7 @@
 <ul>
 <li>&#x6709;&#x4E00;&#x6279;&#x5171;n&#x4E2A;&#x96C6;&#x88C5;&#x7BB1;&#x8981;&#x88C5;&#x4E0A;2&#x8258;&#x8F7D;&#x91CD;&#x91CF;&#x5206;&#x522B;&#x4E3A;c1&#x548C;c2 &#x7684;&#x8F6E;&#x8239;&#xFF0C;&#x5176;&#x4E2D;&#x96C6;&#x88C5;&#x7BB1;i&#x7684;&#x91CD;&#x91CF;&#x4E3A;wi&#xFF0C;&#x88C5;&#x8F7D;&#x95EE;&#x9898;&#x8981;&#x6C42;&#x786E;&#x5B9A;&#x662F;&#x5426;&#x6709;&#x4E00;&#x4E2A;&#x5408;&#x7406;&#x7684;&#x88C5;&#x8F7D;&#x65B9;&#x6848;&#x53EF;&#x5C06;&#x8FD9;&#x4E2A;&#x96C6;&#x88C5; &#x7BB1;&#x88C5;&#x4E0A;&#x8FD9;2&#x8258;&#x8F6E;&#x8239;&#x3002;&#x5982;&#x679C;&#x6709;&#xFF0C;&#x627E;&#x51FA;&#x4E00;&#x79CD;&#x88C5;&#x8F7D;&#x65B9;&#x6848;&#x3002;</li>
 <li>&#x7B56;&#x7565;&#xFF1A;&#x9996;&#x5148;&#x5C06;&#x7B2C;&#x4E00;&#x8258;&#x8F6E;&#x8239;&#x5C3D;&#x53EF;&#x80FD;&#x88C5;&#x6EE1;&#xFF0C;&#x5C06;&#x5269;&#x4F59;&#x7684;&#x96C6;&#x88C5;&#x7BB1;&#x88C5;&#x4E0A;&#x7B2C;&#x4E8C;&#x8258;&#x8F6E;&#x8239;</li>
-<li>&#x5B50;&#x96C6;&#x6811;&#xFF0C;O(2^n^)</li>
+<li>&#x5B50;&#x96C6;&#x6811;&#xFF0C;O(<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>2</mn><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">2^n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.664392em;"></span><span class="strut bottom" style="height:0.664392em;vertical-align:0em;"></span><span class="base textstyle uncramped"><span class="mord"><span class="mord mathrm">2</span><span class="msupsub"><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped mtight"><span class="mord mathit mtight">n</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span></span></span></span></span>)</li>
 <li>cw&#xFF1A;&#x662F;&#x5F53;&#x524D;&#x8F7D;&#x91CD;&#x91CF;&#xFF0C;bestw&#xFF1A;&#x5F53;&#x524D;&#x6700;&#x4F18;&#x8F7D;&#x91CD;&#x91CF;   r&#xFF1A;&#x5269;&#x4F59;&#x96C6;&#x88C5;&#x7BB1;&#x7684;&#x91CD;&#x91CF;&#xFF0C;<strong>&#x9650;&#x754C;&#x51FD;&#x6570;&#xFF1A;cw+r &gt; bestw</strong></li>
 </ul>
 <h3 id="0-1&#x80CC;&#x5305;&#x95EE;&#x9898;">0-1&#x80CC;&#x5305;&#x95EE;&#x9898;</h3>
@@ -385,7 +389,7 @@ i++;
 <ul>
 <li><p>&#x5168;&#x5411;&#x8FDE;&#x6700;&#x5927;&#x5B50;&#x56FE;</p>
 </li>
-<li><p>&#x5B50;&#x96C6;&#x6811;,O(n2^n^) &#x3010;&#x6BCF;&#x6B21;&#x5224;&#x65AD;&#x662F;&#x5426;&#x6EE1;&#x8DB3;&#x7EA6;&#x675F;&#x9700;&#x8981;O(n)&#x3011;</p>
+<li><p>&#x5B50;&#x96C6;&#x6811;,<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><mi>n</mi><msup><mn>2</mn><mi>n</mi></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">O(n2^n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.75em;"></span><span class="strut bottom" style="height:1em;vertical-align:-0.25em;"></span><span class="base textstyle uncramped"><span class="mord mathit" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathit">n</span><span class="mord"><span class="mord mathrm">2</span><span class="msupsub"><span class="vlist"><span style="top:-0.363em;margin-right:0.05em;"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span><span class="reset-textstyle scriptstyle uncramped mtight"><span class="mord mathit mtight">n</span></span></span><span class="baseline-fix"><span class="fontsize-ensurer reset-size5 size5"><span style="font-size:0em;">&#x200B;</span></span>&#x200B;</span></span></span></span><span class="mclose">)</span></span></span></span> &#x3010;&#x6BCF;&#x6B21;&#x5224;&#x65AD;&#x662F;&#x5426;&#x6EE1;&#x8DB3;&#x7EA6;&#x675F;&#x9700;&#x8981;O(n)&#x3011;</p>
 </li>
 <li><p>&#x7EA6;&#x675F;&#x51FD;&#x6570;&#xFF1A;&#x9876;&#x70B9;i&#x5230;&#x5DF2;&#x9009;&#x5165;&#x7684;&#x9876;&#x70B9;&#x96C6;&#x4E2D;&#x6BCF;&#x4E00; &#x4E2A;&#x9876;&#x70B9;&#x90FD;&#x6709;&#x8FB9;&#x76F8;&#x8FDE;</p>
 </li>
@@ -470,7 +474,7 @@ x[t]=i;
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"第五章","level":"1.6","depth":1,"next":{"title":"第六章","level":"1.7","depth":1,"path":"第六章.md","ref":"第六章.md","articles":[]},"previous":{"title":"第四章","level":"1.5","depth":1,"path":"第四章.md","ref":"第四章.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"第五章.md","mtime":"2021-11-18T06:22:15.068Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-11-18T15:52:18.314Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"第五章","level":"1.6","depth":1,"next":{"title":"第六章","level":"1.7","depth":1,"path":"第六章.md","ref":"第六章.md","articles":[]},"previous":{"title":"第四章","level":"1.5","depth":1,"path":"第四章.md","ref":"第四章.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["katex","livereload"],"pluginsConfig":{"katex":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"第五章.md","mtime":"2021-11-19T03:05:14.082Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-11-19T03:09:17.723Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
